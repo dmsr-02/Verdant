@@ -1,0 +1,126 @@
+/*.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item-img {
+    flex: 0 0 50px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.cart-item-name {
+    font-weight: bold;
+}
+
+.cart-item-quantity {
+    color: #888;
+}
+
+.cart-item-remove {
+    margin-left: auto;
+    cursor: pointer;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.sub-total {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.sub-total .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sub-total .buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sub-total .buttons a.view-cart {
+    background-color: #cccccc;
+}*/
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item-img {
+    flex: 0 0 50px;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.cart-item-name {
+    font-weight: bold;
+}
+
+.cart-item-quantity {
+    color: #888;
+}
+
+.cart-item-remove {
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cross {
+    font-size: 18px;
+    color: #070101; 
+    font-weight: bold;
+    border: #000;
+    padding: 5px;
+    border-radius: 80%;
+    background-color: #f5f5f5; /* Light gray background */
+    transition: background-color 0.3s ease;
+}
+
+.cross:hover {
+    background-color: #ffdddd; /* Slightly darker red when hovered */
+    color: #ff0000;
+}
+
+.sub-total {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.sub-total .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.sub-total .buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sub-total .buttons a.view-cart {
+    background-color: #cccccc;
+}
+
